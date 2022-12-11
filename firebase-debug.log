@@ -1,0 +1,144 @@
+[debug] [2022-12-10T12:19:21.699Z] ----------------------------------------------------------------------
+[debug] [2022-12-10T12:19:21.708Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-12-10T12:19:21.710Z] CLI Version:   11.17.0
+[debug] [2022-12-10T12:19:21.711Z] Platform:      win32
+[debug] [2022-12-10T12:19:21.711Z] Node Version:  v16.18.0
+[debug] [2022-12-10T12:19:21.884Z] Time:          Sat Dec 10 2022 13:19:21 GMT+0100 (heure normale d’Afrique de l’Ouest)
+[debug] [2022-12-10T12:19:21.885Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-10T12:19:22.271Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-10T12:19:22.274Z] > authorizing via signed-in user (nkouandou.bilalben@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\admin\MyPortfolio
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-12-10T12:19:35.886Z] Using project from CLI flag: myportfolio-893a7
+[debug] [2022-12-10T12:19:35.927Z] > refreshing access token with scopes: []
+[debug] [2022-12-10T12:19:35.935Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-12-10T12:19:35.936Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-10T12:19:36.467Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2022-12-10T12:19:36.755Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at invalidCredentialError (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:144:12)
+    at refreshTokens (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:508:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.getAccessToken (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:149:23)
+    at async Client.addAuthHeader (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:140:21)
+    at async Client.request (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:34)
+    at async getFirebaseProject (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:295:21)
+    at async doSetup (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:85:27)
+    at async init (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:36:9)
+[error] 
+[error] Error: Failed to get Firebase project myportfolio-893a7. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-12-10T12:20:24.262Z] ----------------------------------------------------------------------
+[debug] [2022-12-10T12:20:24.270Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-12-10T12:20:24.273Z] CLI Version:   11.17.0
+[debug] [2022-12-10T12:20:24.273Z] Platform:      win32
+[debug] [2022-12-10T12:20:24.274Z] Node Version:  v16.18.0
+[debug] [2022-12-10T12:20:24.277Z] Time:          Sat Dec 10 2022 13:20:24 GMT+0100 (heure normale d’Afrique de l’Ouest)
+[debug] [2022-12-10T12:20:24.279Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-10T12:20:24.591Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-10T12:20:24.593Z] > authorizing via signed-in user (nkouandou.bilalben@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\admin\MyPortfolio
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-12-10T12:22:28.084Z] Using project from CLI flag: myportfolio-893a7
+[debug] [2022-12-10T12:22:28.090Z] > refreshing access token with scopes: []
+[debug] [2022-12-10T12:22:28.100Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-12-10T12:22:28.101Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-10T12:22:28.383Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2022-12-10T12:22:28.635Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at invalidCredentialError (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:144:12)
+    at refreshTokens (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:508:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.getAccessToken (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:149:23)
+    at async Client.addAuthHeader (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:140:21)
+    at async Client.request (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:34)
+    at async getFirebaseProject (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:295:21)
+    at async doSetup (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:85:27)
+    at async init (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:36:9)
+[error] 
+[error] Error: Failed to get Firebase project myportfolio-893a7. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-12-10T12:23:54.475Z] ----------------------------------------------------------------------
+[debug] [2022-12-10T12:23:54.486Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js hosting:channel:deploy preview_name
+[debug] [2022-12-10T12:23:54.490Z] CLI Version:   11.17.0
+[debug] [2022-12-10T12:23:54.491Z] Platform:      win32
+[debug] [2022-12-10T12:23:54.492Z] Node Version:  v16.18.0
+[debug] [2022-12-10T12:23:54.497Z] Time:          Sat Dec 10 2022 13:23:54 GMT+0100 (heure normale d’Afrique de l’Ouest)
+[debug] [2022-12-10T12:23:54.499Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-10T12:23:54.967Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-10T12:23:54.969Z] > authorizing via signed-in user (nkouandou.bilalben@gmail.com)
+[debug] [2022-12-10T12:23:54.970Z] [iam] checking project myportfolio-893a7 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-12-10T12:23:54.977Z] > refreshing access token with scopes: []
+[debug] [2022-12-10T12:23:54.985Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-12-10T12:23:54.985Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-10T12:23:55.672Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2022-12-10T12:23:55.674Z] > refreshing access token with scopes: []
+[debug] [2022-12-10T12:23:55.676Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-12-10T12:23:55.677Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-10T12:23:55.869Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2022-12-10T12:23:56.126Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at invalidCredentialError (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:144:12)
+    at refreshTokens (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:508:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.getAccessToken (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:149:23)
+    at async Client.addAuthHeader (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:140:21)
+    at async Client.request (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:34)
+    at async getFirebaseProject (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:295:21)
+    at async getDefaultHostingSite (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\getDefaultHostingSite.js:8:21)
+    at async Object.requireHostingSite [as fn] (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\requireHostingSite.js:9:18)
+    at async C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:214:17
+[error] 
+[error] Error: Failed to get Firebase project myportfolio-893a7. Please make sure the project exists and your account has permission to access it.
